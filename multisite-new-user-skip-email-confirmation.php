@@ -11,11 +11,12 @@ Author URI: https://craftpeak.com/
 function wnet_custom_user_profile_fields($user){
 	if (!is_super_admin( get_current_user_id() )) {
 ?>
+
 	<table class="form-table">
 		<tr>
 			<th scope="row"><?php _e('Skip Confirmation Email') ?></th>
 			<td><input type="checkbox" name="skipconfirmation" value="1" <?php if (isset($_POST['skipconfirmation'])) checked( $_POST['skipconfirmation'], 1 ); ?> /> Add the user without sending an email that requires their confirmation.</td>
-    </tr>
+		</tr>
 	</table>
 
 <?php
