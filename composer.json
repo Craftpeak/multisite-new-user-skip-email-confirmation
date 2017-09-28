@@ -1,6 +1,6 @@
 {
 	"name"        : "craftpeak/multisite-new-user-skip-email-confirmation",
-	"description" : "Mimic the super-admin "Skip Confirmation Email" checkbox for users that can create other users.",
+	"description" : "Mimic the super-admin 'Skip Confirmation Email' checkbox for users that can create other users.",
 	"keywords"    : ["wordpress"],
 	"homepage"    : "https://themehybrid.com/plugins/members",
 	"license"     : "GPL-3.0+",
